@@ -1,4 +1,4 @@
-n = input();arr = list(map(int, input().split()))
-unique = sorted(list(set(arr)))
-mapping = {val : i for i, val in enumerate(unique)}
-print(*[mapping[val] for val in arr])
+n=input();a=list(map(int, input().split()))
+u=sorted(list(set(a)))
+m={v:i for i,v in enumerate(u)}
+print(*[m[v] for v in a])
